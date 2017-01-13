@@ -4,7 +4,7 @@ INC=-Iinc
 
 all: cc
 
-obj/%.o: src/%.c
+obj/%.o: src/%.c inc/%.h
 	mkdir -p obj
 	$(CC) -c -o $@ $< $(CFLAGS) $(INC)
 
