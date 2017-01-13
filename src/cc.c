@@ -259,7 +259,7 @@ void get_position(int *ptr_line, int *ptr_col, char piece) {
 		if (colChar < 'a') {
 			column = colChar - 'A';
 		} else {
-			column = colChar - 'a';
+			column = colChar - 'a' + 26;
 		}
 
 
