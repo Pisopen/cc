@@ -2,13 +2,13 @@ CC=gcc
 CFLAGS=-O2 -Wall
 INC=-Iinc
 
-all: cc
+all: cc.exe
 
 obj/%.o: src/%.c inc/%.h
 	mkdir -p obj
 	$(CC) -c -o $@ $< $(CFLAGS) $(INC)
 
-cc: obj/cc.o
+cc.exe: obj/cc.o
 	$(CC) -o $@ $^
 
 clean:

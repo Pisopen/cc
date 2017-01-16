@@ -1,0 +1,18 @@
+# Compiled source #
+###################
+*.exe
+*.o
+
+# Personnal stuff #
+###################
+*.txt
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+
+# Text Editors backup files #
+#############################
+*~
+
