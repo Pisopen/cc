@@ -1,4 +1,4 @@
-# `cc` — Simple Chinese checkers game
+# `cc` - Simple Chinese checkers game
 
 A school project consisting in creating a [Chinese checkers][Chinese_checkers_wiki] game using [C language][C_wiki] only.
 
