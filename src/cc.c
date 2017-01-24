@@ -2,8 +2,6 @@
 #include <stdbool.h>
 #include "cc.h"
 
-//bite
-
 char BOARD[BOARD_SIZE][BOARD_SIZE];
 
 int main(int argc, char **argv) {
